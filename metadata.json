@@ -1,0 +1,6 @@
+{
+  "name": "Adiguna EcoPrint",
+  "description": "A modern, responsive multi-page landing website showcase for Adiguna EcoPrint, featuring Home, Collection, and Artisan Profile pages with natural earthy aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
