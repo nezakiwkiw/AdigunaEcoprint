@@ -20,7 +20,7 @@ export default function ProductDetailModal({
       ? `Halo Ibu Dyah, saya tertarik memesan produk "${product.name}". Mohon info ketersediaannya.`
       : `Hello Dyah, I am interested in ordering the "${product.name}". Please provide availability details.`;
     const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/6281234567890?text=${encoded}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/6282178714080?text=${encoded}`, '_blank', 'noopener,noreferrer');
   };
 
   return (

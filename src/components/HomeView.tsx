@@ -97,9 +97,9 @@ export default function HomeView({ setCurrentPage, setSelectedProduct, currentLa
                 </dd>
               </div>
               <div>
-                <dt className="text-2xl font-serif font-bold text-forest-900">Yogyakarta</dt>
+                <dt className="text-2xl font-serif font-bold text-forest-900">Banyumas</dt>
                 <dd className="text-xs text-forest-600 font-sans tracking-wide">
-                  {currentLanguage === 'ID' ? 'Asal Sanggar' : 'Sleman Sanggar'}
+                  {currentLanguage === 'ID' ? 'Asal Sanggar' : 'Banyumas Sanggar'}
                 </dd>
               </div>
             </div>
@@ -214,7 +214,7 @@ export default function HomeView({ setCurrentPage, setSelectedProduct, currentLa
                 <p className="font-sans text-sm text-forest-800/85 leading-relaxed">
                   {currentLanguage === 'ID'
                     ? 'Sanggar kami aktif menyelenggarakan kelas kerajinan dan membina kelompok ibu rumah tangga setempat untuk meningkatkan pendapatan keluarga melalui industri kreatif berkelanjutan.'
-                    : 'We host routine eco-print workshops for mothers and youth in Sleman, promoting auxiliary incomes while keeping traditional botanical heritage alive.'}
+                    : 'We host routine eco-print workshops for mothers and youth in Purwokerto, promoting auxiliary incomes while keeping traditional botanical heritage alive.'}
                 </p>
               </div>
 
@@ -512,8 +512,8 @@ export default function HomeView({ setCurrentPage, setSelectedProduct, currentLa
           </h2>
           <p className="text-sm sm:text-base text-beige-100/70 font-sans max-w-xl mx-auto leading-relaxed">
             {currentLanguage === 'ID'
-              ? 'Miliki karya wastra tradisional yang sepenuhnya lestari, menghidupkan ekosistem lokal pengrajin Sleman, dan menjaga keharmonisan bumi.'
-              : 'Acquire traditional fine wear that empowers Sleman craft artisans and preserves local forestry chains safely.'}
+              ? 'Miliki karya wastra tradisional yang sepenuhnya lestari, menghidupkan ekosistem lokal pengrajin Banyumas, dan menjaga keharmonisan bumi.'
+              : 'Acquire traditional fine wear that empowers Banyumas craft artisans and preserves local forestry chains safely.'}
           </p>
           <div className="pt-2">
             <button

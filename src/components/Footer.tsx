@@ -122,12 +122,12 @@ export default function Footer({ setCurrentPage, currentLanguage }: FooterProps)
               <li className="flex items-start space-x-3">
                 <MapPin className="h-4.5 w-4.5 text-mustard-500 shrink-0 mt-0.5" />
                 <span>
-                  Jl. Cempaka Indah No. 42, Sleman, Daerah Istimewa Yogyakarta, Indonesia
+                  Dukuwaluh, Purwokerto, Banyumas, Jawa Tengah, Indonesia
                 </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-4.5 w-4.5 text-mustard-500 shrink-0" />
-                <span>+62 812-3456-7890</span>
+                <span>+62 821-7871-4080</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-4.5 w-4.5 text-mustard-500 shrink-0" />

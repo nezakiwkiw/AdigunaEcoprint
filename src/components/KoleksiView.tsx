@@ -130,7 +130,7 @@ export default function KoleksiView({ setSelectedProduct, currentLanguage }: Kol
               </h4>
               <p className="font-sans text-xs text-forest-800/70 mt-2 leading-relaxed">
                 {currentLanguage === 'ID'
-                  ? 'Setiap lembar dibuat manual di Sleman membangkitkan keahlian tradisional komunitas artisan wanita.'
+                  ? 'Setiap lembar dibuat manual di Banyumas membangkitkan keahlian tradisional komunitas artisan wanita.'
                   : 'Fully hand-steamed in central Java, safeguarding heritage craft and bolstering local family earnings.'}
               </p>
             </div>
@@ -284,7 +284,7 @@ export default function KoleksiView({ setSelectedProduct, currentLanguage }: Kol
                           ? `Halo Ibu Dyah, saya tertarik memesan produk "${product.name}". Mohon info ketersediaannya.`
                           : `Hello Dyah, I am interested in ordering "${product.name}". Please provide availability details.`;
                         const encoded = encodeURIComponent(message);
-                        window.open(`https://wa.me/6281234567890?text=${encoded}`, '_blank', 'noopener,noreferrer');
+                        window.open(`https://wa.me/6282178714080?text=${encoded}`, '_blank', 'noopener,noreferrer');
                       }}
                       className="inline-flex items-center justify-center space-x-1.5 rounded-xl bg-forest-900 hover:bg-forest-950 text-beige-50 px-4 py-2.5 text-xs font-bold transition-all cursor-pointer shadow-sm"
                     >

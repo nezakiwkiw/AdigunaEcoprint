@@ -29,7 +29,7 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
     // Create WhatsApp text query for standard checkout/information queries
     const textQuery = `Halo Ibu Dyah Orbarini, saya ${formName}. ${formMessage}. Kontak saya di ${formPhone} / ${formEmail}`;
     const encodedText = encodeURIComponent(textQuery);
-    const waLink = `https://wa.me/6281234567890?text=${encodedText}`;
+    const waLink = `https://wa.me/6282178714080?text=${encodedText}`;
     
     // Simulate form submission success
     setFormSubmitted(true);
@@ -83,13 +83,13 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
 
                 {/* Brief bio text */}
                 <p className="font-sans text-xs sm:text-sm text-forest-800/80 leading-relaxed italic">
-                  "Menekuni keselarasan mordan tawas alami dan pigmen daun tropis sejak 2014, membimbing kemandirian ekonomi puluhan pengrajin perempuan Sleman."
+                  "Menekuni keselarasan mordan tawas alami dan pigmen daun tropis sejak 2014, membimbing kemandirian ekonomi puluhan pengrajin perempuan Banyumas."
                 </p>
 
                 {/* Social media connections */}
                 <div className="flex flex-wrap gap-2.5 pt-2">
                   <a 
-                    href="https://wa.me/6281234567890" 
+                    href="https://wa.me/6282178714080" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-1 px-3 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs font-semibold border border-emerald-100 transition-colors"
@@ -123,8 +123,8 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
 
               <p className="font-sans text-sm sm:text-base text-forest-800/80 leading-relaxed">
                 {currentLanguage === 'ID'
-                  ? 'Ibu Dyah Orbarini memulai riset mordanting kain serat selulosa sejak satu dekade lalu di halaman kecil rumahnya di Sleman. Dengan ketekunan meneliti zat tanin pada dedaunan nusantara, beliau melahirkan formula rahasia emulsi minyak zaitun-kedelai untuk mengunci uap warna tanaman yang tajam, anti luntur, dan indah dipandang mata.'
-                  : 'Ibu Dyah Orbarini initiated organic mordanting research in her Sleman garden back in 2014. By testing hundreds of wild tropical leaf taninnates, she achieved our signature olive-soy emulsion that perfectly fixes herbal pigmentation without harsh chemical fixatives.'}
+                  ? 'Ibu Dyah Orbarini memulai riset mordanting kain serat selulosa sejak satu dekade lalu di halaman kecil rumahnya di Purwokerto, Banyumas. Dengan ketekunan meneliti zat tanin pada dedaunan nusantara, beliau melahirkan formula rahasia emulsi minyak zaitun-kedelai untuk mengunci uap warna tanaman yang tajam, anti luntur, dan indah dipandang mata.'
+                  : 'Ibu Dyah Orbarini initiated organic mordanting research in her Purwokerto garden back in 2014. By testing hundreds of wild tropical leaf taninnates, she achieved our signature olive-soy emulsion that perfectly fixes herbal pigmentation without harsh chemical fixatives.'}
               </p>
 
               {/* Stats card grid beside the profile box */}
@@ -414,8 +414,8 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
 
               <p className="font-sans text-xs sm:text-sm text-forest-800/85 leading-relaxed">
                 {currentLanguage === 'ID'
-                  ? 'Pintu sanggar kami terbuka bagi kolektor, desainer, maupun siswa yang ingin mengenal rahasia wastra botani kami di Sleman. Silakan layangkan pesan digital di samping ini atau ketuk kanal sosial kami.'
-                  : 'We welcome curators, garment designers, and botanical students at our physical garden in Sleman. Fire off an digital dispatch or reach us directly via WA, Shopee, or Insta.'}
+                  ? 'Pintu sanggar kami terbuka bagi kolektor, desainer, maupun siswa yang ingin mengenal rahasia wastra botani kami di Purwokerto, Banyumas. Silakan layangkan pesan digital di samping ini atau ketuk kanal sosial kami.'
+                  : 'We welcome curators, garment designers, and botanical students at our physical garden in Purwokerto, Banyumas. Fire off an digital dispatch or reach us directly via WA, Shopee, or Insta.'}
               </p>
 
               {/* Contacts info bullets */}
@@ -426,7 +426,7 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
                   <div>
                     <h4 className="text-xs font-bold text-forest-950">Lokasi Google Map Sanggar</h4>
                     <span className="text-xs text-forest-800/75 block mt-0.5">
-                      Jl. Cempaka Indah No. 42, Sleman, Daerah Istimewa Yogyakarta, Indonesia
+                      Dukuwaluh, Purwokerto, Banyumas, Jawa Tengah, Indonesia
                     </span>
                   </div>
                 </div>
@@ -435,7 +435,7 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
                   <Phone className="h-5 w-5 text-mustard-500 shrink-0 mt-0.5" />
                   <div>
                     <h4 className="text-xs font-bold text-forest-950">Telepon & WhatsApp Resmi</h4>
-                    <span className="text-xs text-forest-800/75 block mt-0.5">+62 812-3456-7890</span>
+                    <span className="text-xs text-forest-800/75 block mt-0.5">+62 821-7871-4080</span>
                   </div>
                 </div>
 
