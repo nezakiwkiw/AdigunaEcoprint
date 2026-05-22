@@ -267,10 +267,10 @@ export default function HomeView({ setCurrentPage, setSelectedProduct, currentLa
             {/* Grayscale portrait of the artisan wrapped around beautiful natural space */}
             <div className="relative w-full max-w-md md:max-w-lg aspect-square sm:aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border border-forest-900">
               <img
-                src="src/assets/images/BU DYAH.png"
+                src="/src/assets/images/dyah_profile_1779457417203.png"
                 alt="Ibu Dyah Orbarini - Artisan Adiguna EcoPrint"
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover grayscale contrast-110 saturate-50 brightness-90 xl:brightness-95 transition-all duration-500 hover:scale-105"
+                className="w-full h-full object-cover brightness-95 xl:brightness-95 transition-all duration-500 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-forest-950 via-forest-950/20 to-transparent opacity-80" />
             </div>

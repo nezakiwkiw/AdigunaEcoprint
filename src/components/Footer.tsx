@@ -34,8 +34,13 @@ export default function Footer({ setCurrentPage, currentLanguage }: FooterProps)
           {/* Column 1: Brand & Bio */}
           <div className="lg:col-span-4 space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-forest-900 transition-transform duration-300 shadow-sm border border-white/20">
-                <div className="w-4 h-4 border-2 border-white rounded-full"></div>
+              <div className="h-10 w-10 overflow-hidden rounded-full border border-white/20 bg-forest-900 transition-transform duration-300 shadow-sm">
+                <img 
+                  src="/src/assets/images/adiguna_logo_1779457397436.png" 
+                  alt="Adiguna Logo" 
+                  className="h-full w-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
               </div>
               <div>
                 <h3 className="font-serif text-lg font-bold tracking-tight text-white leading-none">

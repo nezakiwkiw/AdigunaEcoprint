@@ -41,8 +41,13 @@ export default function Header({
           className="group flex cursor-pointer items-center space-x-3"
           id="nav-logo"
         >
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-forest-900 transition-transform duration-300 group-hover:scale-105 shadow-sm">
-            <div className="w-4 h-4 border-2 border-white rounded-full"></div>
+          <div className="h-10 w-10 overflow-hidden rounded-full border border-forest-800/10 bg-forest-900 transition-transform duration-300 group-hover:scale-105 shadow-sm">
+            <img 
+              src="/src/assets/images/adiguna_logo_1779457397436.png" 
+              alt="Adiguna Logo" 
+              className="h-full w-full object-cover"
+              referrerPolicy="no-referrer"
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-sans text-lg font-extrabold tracking-tight uppercase text-forest-900 leading-none">

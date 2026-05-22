@@ -62,10 +62,10 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
                 {/* Photo Portrait */}
                 <div className="relative rounded-2xl overflow-hidden aspect-square max-w-sm mx-auto shadow-inner bg-beige-50">
                   <img
-                    src="src/assets/images/BU DYAH.png"
+                    src="/src/assets/images/dyah_profile_1779457417203.png"
                     alt="Dyah Orbarini - Maestro EcoPrint"
                     referrerPolicy="no-referrer"
-                    className="w-full h-full object-cover grayscale brightness-95"
+                    className="w-full h-full object-cover brightness-95"
                   />
                   {/* Overlapping Stamp */}
                   <span className="absolute bottom-4 left-4 bg-mustard-500 text-forest-950 font-sans text-[9px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
