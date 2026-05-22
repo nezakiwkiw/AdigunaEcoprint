@@ -62,7 +62,7 @@ export default function TentangView({ setSelectedProduct, currentLanguage }: Ten
                 {/* Photo Portrait */}
                 <div className="relative rounded-2xl overflow-hidden aspect-square max-w-sm mx-auto shadow-inner bg-beige-50">
                   <img
-                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80"
+                    src="src/assets/images/BU DYAH.png"
                     alt="Dyah Orbarini - Maestro EcoPrint"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover grayscale brightness-95"
